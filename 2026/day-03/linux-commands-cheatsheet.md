@@ -5,7 +5,7 @@ htop - imporved version of top
 ps - show process status
     -ef print detailed overview of all processes 
     aux
-## used with | grep <text> to find specific process
+    **used with | grep <text> to find specific process**
 
 & - added at end of command to run that command/process in background
 
@@ -34,7 +34,7 @@ touch filename.txt - create file
 cmd > filename - redirect output of the command to file (overwrite current file contents)
 cmd >& filename - redirect output of the command to file ( overwrite current file contents and suppresses output in terminal )
 cmd > /dev/null  suppress the o/p of cmd
-## cmd >> filename - appends the output of command to the file
+**cmd >> filename - appends the output of command to the file**
 cmd &> filename - redirect output as well as command 
     Same as > file 2>&1 
 
@@ -47,7 +47,7 @@ cat filename - display contents of file
 find /path/of/dir -name "pattern- *.log, *.txt"
     -100m flag that specifies larger than specified
 
-## locate <file_name/folder> gives location of file 
+**locate <file_name/folder> gives location of file**
 
 tar -cvf file.tar dir (create compressed version of folder)
 tar -xvf file.tar  (unzip folder)
@@ -67,3 +67,4 @@ ss -tulnp
     
 
 telnet <hostname> portnumber - checks whether host has specified port open or not
+
