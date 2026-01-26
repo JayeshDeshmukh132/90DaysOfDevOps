@@ -32,9 +32,13 @@ cp -r folder1 folder2
 touch filename.txt - create file
 
 cmd > filename - redirect output of the command to file (overwrite current file contents)
-cmd >& filename - redirect output of the command to file ( overwrite current file contents and suppresses output in terminal )
+
+cmd >& filename - redirect output of the command to file ( overwrite current file contents and suppresses output in terminal)
+
 cmd > /dev/null  suppress the o/p of cmd
+
 **cmd >> filename - appends the output of command to the file**
+
 cmd &> filename - redirect output as well as command 
     Same as > file 2>&1 
 
@@ -67,4 +71,5 @@ ss -tulnp
     
 
 telnet <hostname> portnumber - checks whether host has specified port open or not
+
 
